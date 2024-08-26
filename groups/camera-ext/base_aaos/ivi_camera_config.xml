@@ -4,11 +4,9 @@
         <CameraIdOffset>0</CameraIdOffset>
         <CaptureManager>disable</CaptureManager>
         <ignore> <!-- Internal video devices to be ignored by external camera HAL -->
-            <!--
-            <id>5</id>
-            <id>6</id>
-            <id>7</id>
-            -->
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
         </ignore>
     </Provider>
     <!-- See ExternalCameraUtils.cpp for default values of Device configurations below
